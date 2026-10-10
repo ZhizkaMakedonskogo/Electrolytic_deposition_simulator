@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "description": "Parameters: rows=12, n_trials=50, n_repeats=3, metric=weighted_L",
+  "save_session_json": true,
+  "session_output_dir": "results/simulator_sessions",
+  "metric": "weighted_L",
+  "benchmark_protocol": {
+    "rows": 12,
+    "n_trials": 50,
+    "n_repeats": 3,
+    "n_runs": 5,
+    "base_seed": 42,
+    "param_low": 0.0,
+    "param_high": 1.0,
+    "steps_per_trial": 200,
+    "targets": [
+      "hist1",
+      "hist2",
+      "hist3"
+    ],
+    "pso_swarm_size": 0
+  },
+  "gui_defaults": {
+    "rows": 12,
+    "mode": "Constant-current",
+    "algorithm": "TPE",
+    "n_trials": 50,
+    "n_repeats": 3,
+    "simulation_steps": 200,
+    "theory_preset": "hist1",
+    "theory_file": "config/histograms/hist1.txt",
+    "param_low": 0.0,
+    "param_high": 1.0,
+    "add": 0.5,
+    "transit": 0.5,
+    "merge": 0.5,
+    "pso_swarm_size": 0
+  }
+}

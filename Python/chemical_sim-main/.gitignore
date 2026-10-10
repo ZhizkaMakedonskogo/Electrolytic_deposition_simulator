@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.idea/
+*.log
+app.log
+results/*.json
+results/**/*.json
+optimization_results/
+results/simulator_sessions/

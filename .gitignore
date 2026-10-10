@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Секреты и локальная среда
+.env
+.env.*
+!.env.example
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.suo
+*.user
+.vs/
+*.swp
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# CMake / C++
+**/cmake-build-*/
+**/out/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.obj
+*.o
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.a
+
+# Логи и временные файлы
+*.log
+*_temp.png
+*.tmp
+*.bak
+
+
+
